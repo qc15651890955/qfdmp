@@ -22,6 +22,6 @@ object TagsKeyWords extends Tags{
     }).foreach(f => {
       list:+= ("K" + f, 1)
     })
-    list
+    list.distinct
   }
 }
